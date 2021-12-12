@@ -135,7 +135,7 @@ namespace KihonEngine.Studio.Controls
                     XSize = 10,
                     YSize = 10,
                     ZSize = 10,
-                    UseBackMaterial = true,
+                    UseBackMaterial = false,
                 }
             });
         }
