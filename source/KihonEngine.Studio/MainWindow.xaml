@@ -47,9 +47,10 @@
                 <Separator />
                 <MenuItem Header="Map Properties" Click="MenuMapProperties_Click" />
             </MenuItem>
+            <MenuItem Header="View">
+                <MenuItem Header="Refresh" x:Name="menuRefresh" Click="menuRefresh_Click"/>
+            </MenuItem>
             <MenuItem Header="Tools">
-                <!--<MenuItem Header="Extract map content..." x:Name="menuExtractMapContent" Click="menuExtractMapContent_Click"/>
-                <Separator />-->
                 <MenuItem Header="Manage Content Sources..." x:Name="menuContentSources" Click="MenuContentSources_Click"/>
             </MenuItem>
             <MenuItem Header="Help">

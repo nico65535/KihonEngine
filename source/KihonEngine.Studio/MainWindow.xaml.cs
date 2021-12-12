@@ -252,9 +252,9 @@ namespace KihonEngine.Studio
             GameEngineController.StopGameLogic();
         }
 
-        private void menuExtractMapContent_Click(object sender, RoutedEventArgs e)
+        private void menuRefresh_Click(object sender, RoutedEventArgs e)
         {
-
+            GameEngineController.NotifyIOs();
         }
     }
 }

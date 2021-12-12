@@ -24,7 +24,7 @@ A Content Source scans the following subfolders:
 * textures : for locating textures
 * skyboxes : for locating skyboxes
 
-By defaut, when Kihon Engine Studio starts, the following content source are available.
+By defaut, when Kihon Engine Studio starts, the following content sources are available.
 
 | Sources | Description |
 | ----------| ------------| 
